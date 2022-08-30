@@ -1,0 +1,44 @@
+@import './utils/variable-body.scss';
+@import './layouts/BEM-body.scss';
+
+
+// .contain-body-width {
+//     width: 18rem;
+// }
+// .contain-body-a {
+//     border: 2em;
+//     margin: 5%;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: left;
+//     align-items: center;
+//     .card {
+//         margin: 10px;
+//     }
+// }
+// .parentArticle {
+//     display: flex;
+//     justify-content: center;
+//     margin-top: 2%;
+//     .article {
+//         width: 60%;
+//         height: 40%;
+//     }
+// }
+
+
+.forex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    &-cth-with {
+        width: 90%;
+    }
+}
+.loading {
+    display: flex;
+    justify-content: center;
+    margin: 20%;
+}
