@@ -1,3 +1,6 @@
+@import '../utils/variable-body.scss';
+
+
 .forex {
     width: 100%;
     border: 4px solid black;
@@ -9,3 +12,12 @@
         width: 33.33%;
     }
 }
+
+.nav_fx{
+    @include flex;
+    padding: 10px;
+    button {
+        margin-left: 30px;
+    }
+}
+

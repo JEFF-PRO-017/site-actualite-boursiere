@@ -1,13 +1,18 @@
 import React from 'react';
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../style/public/style.css';
+import '../style/public/bootstrap.min.css';
 
 function Loading() {
     return (
         <React.StrictMode>
-            <div className="loading">
-                <div className="spinner-grow" role="status"></div>
-                <span className=""> Loading . . .</span>
+            <div className="main-site loading ">
+                <div
+                    className="main-content space-top wrapper"
+                    role="main"
+                    id="mainContent"
+                >
+                    <div className="loader loader-8"></div>
+                </div>
             </div>
         </React.StrictMode>
     );
